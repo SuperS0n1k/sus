@@ -19,8 +19,8 @@ for i in range(0,width):# process all pixels
             for i in range(0,width):# process all pixels
     for j in range(0,height):
         data = img.getpixel((i,j))
-        #print(data) #(0, 0, 255)
+        #print(data) #(124, 2, 53)
         if (data[0]==0 and data[1]==0 and data[2]==255):
-            img.putpixel((i,j),(44, 44, 44))
+            img.putpixel((i,j),(124, 2, 53))
             
 img.show()
